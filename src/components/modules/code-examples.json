@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_modules_code_examples",
+  "info": {
+    "displayName": "codeExamples",
+    "icon": "angle-up",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "language": {
+      "type": "enumeration",
+      "enum": [
+        "bash",
+        "css",
+        "html",
+        "java",
+        "javascript",
+        "php",
+        "python",
+        "ruby",
+        "sql"
+      ]
+    },
+    "code": {
+      "type": "component",
+      "repeatable": true,
+      "component": "macros.code-example"
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

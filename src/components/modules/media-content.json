@@ -1,0 +1,36 @@
+{
+  "collectionName": "components_modules_media_contents",
+  "info": {
+    "displayName": "mediaContent",
+    "icon": "at",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "mediaPosition": {
+      "type": "enumeration",
+      "enum": [
+        "left",
+        "right"
+      ],
+      "default": "left"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "content": {
+      "type": "richtext"
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

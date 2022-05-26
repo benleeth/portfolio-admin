@@ -1,0 +1,40 @@
+{
+  "collectionName": "components_modules_media",
+  "info": {
+    "displayName": "media",
+    "icon": "ad",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "newTab": {
+      "type": "boolean",
+      "default": true
+    },
+    "screenshot": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "download": {
+      "type": "boolean",
+      "default": false
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

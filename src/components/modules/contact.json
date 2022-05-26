@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_modules_contacts",
+  "info": {
+    "displayName": "contact",
+    "icon": "address-book",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "showForm": {
+      "type": "boolean",
+      "default": true
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

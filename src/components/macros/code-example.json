@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_macros_code_examples",
+  "info": {
+    "displayName": "codeExample",
+    "icon": "angry",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "text"
+    }
+  }
+}

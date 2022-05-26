@@ -1,0 +1,27 @@
+{
+  "collectionName": "components_macros_skill_ratings",
+  "info": {
+    "displayName": "skillRating",
+    "icon": "star",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "string"
+    },
+    "rating": {
+      "type": "enumeration",
+      "enum": [
+        "zero",
+        "one",
+        "two",
+        "three",
+        "four",
+        "five",
+        "six"
+      ],
+      "default": "three"
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_modules_skills",
+  "info": {
+    "displayName": "skills",
+    "icon": "star-half",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "skillRating": {
+      "type": "component",
+      "repeatable": true,
+      "component": "macros.skill-rating"
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}

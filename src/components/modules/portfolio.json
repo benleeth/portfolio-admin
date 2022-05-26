@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_modules_portfolios",
+  "info": {
+    "displayName": "portfolio",
+    "icon": "folder-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "portfolioItems": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::portfolio-item.portfolio-item"
+    },
+    "sectionTitle": {
+      "type": "string"
+    }
+  }
+}
