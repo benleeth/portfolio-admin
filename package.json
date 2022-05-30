@@ -14,6 +14,7 @@
     "@strapi/plugin-graphql": "^4.1.11",
     "@strapi/plugin-i18n": "4.1.11",
     "@strapi/plugin-users-permissions": "4.1.11",
+    "@strapi/provider-email-sendgrid": "^4.1.12",
     "@strapi/strapi": "4.1.11",
     "mysql": "2.18.1",
     "strapi-plugin-ezforms": "^0.0.7",
