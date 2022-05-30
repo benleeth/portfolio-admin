@@ -29,5 +29,29 @@ module.exports = ({ env }) => ({
         }
       }
     }
+  },
+  upload: {
+    config: {
+      breakpoints: {
+        xlarge: 2000,
+        large: 1200,
+        medium: 850,
+        small: 500,
+        xsmall: 50
+      }
+    }
+  },
+  email: {
+    config: {
+      provider: 'sendgrid',
+      providerOptions: {
+        apiKey: env('SENDGRID_API_KEY')
+      },
+      settings: {
+        defaultFrom: 'me@benleeth.com',
+        defaultReplyTo: 'me@benleeth.com',
+        testAddress: 'bobquznie@gmail.com'
+      }
+    }
   }
 })
