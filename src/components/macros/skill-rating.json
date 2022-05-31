@@ -11,17 +11,8 @@
       "type": "string"
     },
     "rating": {
-      "type": "enumeration",
-      "enum": [
-        "zero",
-        "one",
-        "two",
-        "three",
-        "four",
-        "five",
-        "six"
-      ],
-      "default": "three"
+      "type": "integer",
+      "max": 100
     }
   }
 }
