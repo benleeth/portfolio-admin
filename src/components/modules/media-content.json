@@ -31,6 +31,15 @@
     },
     "sectionTitle": {
       "type": "string"
+    },
+    "textSpacing": {
+      "type": "enumeration",
+      "enum": [
+        "narrow",
+        "normal",
+        "spaced"
+      ],
+      "default": "normal"
     }
   }
 }
