@@ -12,6 +12,7 @@
       "enum": [
         "bash",
         "css",
+        "graphql",
         "html",
         "java",
         "javascript",
