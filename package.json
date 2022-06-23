@@ -10,12 +10,12 @@
     "strapi": "strapi"
   },
   "dependencies": {
+    "@strapi/strapi": "4.2.0",
+    "@strapi/plugin-users-permissions": "4.2.0",
+    "@strapi/plugin-i18n": "4.2.0",
     "@notum-cz/strapi-plugin-content-versioning": "^0.4.3",
     "@strapi/plugin-graphql": "^4.1.11",
-    "@strapi/plugin-i18n": "4.1.11",
-    "@strapi/plugin-users-permissions": "4.1.11",
     "@strapi/provider-email-sendgrid": "^4.1.12",
-    "@strapi/strapi": "4.1.11",
     "mysql": "2.18.1",
     "strapi-plugin-ezforms": "^0.0.7",
     "strapi-plugin-navigation": "^2.0.13",
